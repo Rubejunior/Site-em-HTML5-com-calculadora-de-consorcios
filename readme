@@ -1,0 +1,103 @@
+# README - Aprovacon Consórcios
+
+## 📌 Visão Geral
+O **Aprovacon Consórcios** é um site institucional especializado em soluções de consórcio para diversos tipos de bens (veículos, imóveis e serviços). O projeto inclui uma calculadora de consórcio interativa em JavaScript que permite aos usuários simular valores de parcelas ou valores totais de acordo com suas necessidades.
+
+## ✨ Principais Funcionalidades
+
+### 🚀 Calculadora de Consórcio
+- **Seleção de tipo de consórcio** (Carros, Motos, Pesados, Imóveis, Serviços)
+- **Modos de cálculo**:
+  - Por valor da parcela (R$300 a R$12.000)
+  - Por valor total do bem (R$30.000 a R$2.000.000)
+- **Sliders interativos** sincronizados com campos numéricos
+- **Validação de dados** em tempo real
+- **Fluxo em duas etapas** (cálculo + dados pessoais)
+
+### 🌐 Site Institucional
+- Páginas informativas (Sobre Nós, Serviços, Fale Conosco)
+- Design responsivo para todos os dispositivos
+- Integração com WhatsApp para contato direto
+- Galeria de banners promocionais
+
+## 🛠️ Tecnologias Utilizadas
+
+### Frontend
+- **HTML5** - Estrutura do site
+- **CSS3** - Estilização (incluindo Bootstrap)
+- **JavaScript** - Lógica da calculadora e interações
+- **Bibliotecas**:
+  - jQuery
+  - Bootstrap 5
+  - SwiperJS (carrosséis)
+  - AOS (Animações)
+
+### Backend (Integração)
+- **Google Apps Script** - Para armazenamento de dados em planilhas Google
+- **Formulários dinâmicos** com validação
+
+## 📂 Estrutura de Arquivos
+```
+aprovacon-consorcios/
+├── view/
+│   ├── css/
+│   │   ├── bootstrap.min.css
+│   │   ├── font-awesome.min.css
+│   │   ├── swiper-bundle.min.css
+│   │   ├── style.css
+│   │   └── home.css
+│   ├── js/
+│   │   ├── jquery.min.js
+│   │   ├── bootstrap.bundle.min.js
+│   │   ├── swiper-bundle.min.js
+│   │   └── scripts.js
+│   └── images/
+│       └── (assets visuais)
+├── uploads/
+│   ├── banners/
+│   ├── simulacoes/
+│   └── tema/
+├── index.html
+├── quem-somos.html
+├── seguro.html
+└── (outras páginas)
+```
+
+## 🔧 Configuração e Uso
+
+1. **Instalação**:
+   - Basta clonar o repositório ou baixar os arquivos
+   - Não requer instalação de dependências (todas as bibliotecas são incluídas via CDN)
+
+2. **Personalização**:
+   - Editar os arquivos HTML para alterar conteúdo
+   - Modificar o CSS em `view/css/style.css` e `home.css` para ajustes de design
+   - Atualizar o script do Google Apps Script em `formSimularConsorcio` para seu próprio endpoint
+
+3. **Calculadora**:
+   - Os valores mínimos/máximos podem ser ajustados no JavaScript
+   - Tipos de consórcio podem ser adicionados/editados no HTML e JS
+
+## 📝 Observações Importantes
+
+1. **Integração com Google Sheets e CRM kommo por webhooks**:
+   - O formulário envia dados para um script do Google Apps e CRM Kommo via webhooks
+   - Necessário criar seu próprio script e atualizar a URL no código JavaScript
+
+2. **WhatsApp Integration**:
+   - Os números de telefone devem ser atualizados nas páginas relevantes
+   - A mensagem padrão pode ser personalizada no evento de submit
+
+3. **Responsividade**:
+   - O site já está configurado para mobile-first
+   - Breakpoints podem ser ajustados no CSS conforme necessário
+
+## 📄 Licença
+Este projeto é para uso da Aprovacon Consórcios. Consulte os termos de uso para mais informações.
+
+---
+
+**Equipe de Desenvolvimento**  
+[DataBrasil Soluções]  
+📞 (62) 996514862
+✉ [rubemargo@gmail.com]

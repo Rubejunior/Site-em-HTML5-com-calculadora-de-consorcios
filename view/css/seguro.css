@@ -1,0 +1,215 @@
+/* Seguro */
+.insurance {
+    padding-top: 1.5rem;
+    padding-bottom: 5rem;
+}
+.insurance .section-title {
+    margin-bottom: 2.5rem;
+}
+.insurance .insurance-content div,
+.insurance .insurance-content div > * {
+    font-size: 1.125rem;
+    text-align: justify;
+    line-height: 1.25;
+    color: #2c2c2c;
+}
+.insurance .insurance-content div > *:last-of-type {
+    margin-bottom: 0;
+}
+.insurance .insurance-img {
+    position: relative;
+    padding-right: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-bottom: 1rem;
+}
+.insurance .insurance-img::before {
+    content: "";
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    right: 0;
+    bottom: 0;
+    border-radius: 40px;
+    background-image: -ms-linear-gradient( 14deg, rgb(5,169,156) 0%, rgb(0,211,222) 48%, rgb(0,199,232) 100%);
+    background-image: -moz-linear-gradient( 14deg, rgb(5,169,156) 0%, rgb(0,211,222) 48%, rgb(0,199,232) 100%);
+    background-image: -webkit-linear-gradient( 14deg, rgb(5,169,156) 0%, rgb(0,211,222) 48%, rgb(0,199,232) 100%);
+    z-index: -2;
+}
+.insurance .insurance-img::after {
+    content: "";
+    position: absolute;
+    top: 0.875rem;
+    left: 0.875rem;
+    right: 0.125rem;
+    bottom: 0.125rem;
+    border-radius: 38px;
+    background-color: #FFFFFF;
+    z-index: -1;
+}
+.insurance .insurance-img img {
+    border-radius: 38px;
+}
+@media(min-width: 992px) {
+    .insurance .insurance-img {
+        padding-right: 1.25rem;
+        padding-bottom: 1.25rem;
+        margin-bottom: 0;
+    }
+    .insurance .insurance-img::before {
+        top: 1.25rem;
+        left: 1.25rem;
+    }
+    .insurance .insurance-img::after {
+        top: 1.375rem;
+        left: 1.375rem;
+    }
+}
+
+/* Vantagens do Seguro */
+.benefits::before {
+    content: "";
+    background-image: url("../images/background-vector-left.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: absolute;
+    top: 2rem;
+    left: -14rem;
+    width: 100%;
+    height: 100%;
+}
+.benefits::after {
+    content: "";
+    background-image: url("../images/background-vector-right.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position: absolute;
+    bottom: 2rem;
+    right: -15rem;
+    width: 100%;
+    height: 100%;
+}
+.benefits .container {
+    position: relative;
+    z-index: 1020;
+}
+.benefits .grid {
+    display: grid;
+    position: relative;
+    overflow-x: scroll;
+    grid-template-columns: repeat(5, 240px);
+    gap: 1.25rem;
+    margin-right: -1rem;
+    padding-top: 0.25rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 0.125rem;
+    scrollbar-color: #bababa #e3e3e3;
+    scrollbar-width: thin;
+    -ms-overflow-style: none;
+}
+.benefits .grid::-webkit-scrollbar {
+    height: 11px;
+}
+.benefits .grid::-webkit-scrollbar-thumb {
+    height: 11px;
+    background-color: #bababa;
+    border-radius: 5px;
+}
+.benefits .grid .card {
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    padding: 1.25rem 2.125rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px 0px rgba(122, 122, 122, 0.53);
+}
+.benefits .grid .card .card-title {
+    font-family: "Barlow SemiBold";
+    font-size: 1.375rem;
+    color: #04c4ca;
+    line-height: 1;
+    text-align: center;
+}
+.benefits .grid .card .card-description {
+    font-family: "Barlow Medium";
+    font-size: 1.125rem;
+    color: #00223a;
+    line-height: 1;
+    margin-bottom: 0;
+    text-align: center;
+}
+@media(min-width: 576px) {
+    .benefits .grid {
+        margin-right: initial;
+        padding-right: 0.125rem;
+    }
+}
+@media(min-width: 992px) {
+    .benefits::before {
+        left: -10rem;
+    }
+    .benefits::after {
+        bottom: 0.5rem;
+        right: -11rem;
+    }
+}
+@media(min-width: 1200px) {
+    .benefits .grid {
+        overflow-x: initial;
+        grid-template-columns: repeat(5, 1fr);
+        padding-bottom: 0;
+    }
+}
+@media(min-width: 1600px) {
+    .benefits::after {
+        right: -6rem;
+    }
+}
+
+/* Fale com um Especialista */
+.specialist .section-title {
+    font-size: 1.75rem;
+}
+.specialist .btn-contact {
+    font-family: "Barlow Bold";
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    background-color: #04c4ca;
+    border-color: #04c4ca;
+    color: #FFFFFF;
+    height: 60px;
+    max-width: 364px;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+.specialist .btn-contact:hover,
+.specialist .btn-contact:focus {
+    background-color: #88d2d4;
+    border-color: #88d2d4;
+    color: #FFFFFF;
+}
+
+/* Página Seguro */
+.page-insurance .benefits {
+    position: relative;
+    padding-top: 4.25rem;
+    padding-bottom: 12rem;
+    background: rgb(242,242,242);
+    background: linear-gradient(180deg, rgba(242,242,242,1) 83%, rgba(255,255,255,1) 83%);
+}
+.page-insurance .specialist {
+    padding-top: 1rem;
+    padding-bottom: 7rem;
+}
+
+/* Página Seguro Prestamista */
+.page-credit-life-insurance .benefits {
+    position: relative;
+    padding-top: 4.25rem;
+    padding-bottom: 7rem;
+    background: rgb(242,242,242);
+}
+.page-credit-life-insurance .specialist {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}

@@ -1,0 +1,422 @@
+/* Formulário Seja um Representante */
+.section-title small {
+  margin-bottom: 15px;
+}
+.form-representative .form-title {
+  font-family: "Barlow Bold";
+  font-size: 1.5rem;
+  color: #00223a;
+  text-align: center;
+  margin-bottom: 0;
+}
+.form-representative .form-subtitle {
+  font-family: "Barlow";
+  font-size: 1rem;
+  color: #2c2c2c;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.form-representative .form-label {
+  font-family: "Barlow Medium";
+  color: #00223a;
+  margin-bottom: 0;
+}
+.form-representative .form-control {
+  font-family: "Barlow Medium";
+  font-size: 1rem;
+  color: #00223a;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 10px;
+  border: 1px solid #04c4ca;
+}
+.form-representative .form-control:focus {
+  box-shadow: none;
+}
+
+/* Página Seja um Representante */
+.page-representative .representative {
+  padding-top: 1.5rem;
+  padding-bottom: 5rem;
+}
+.page-representative .representative .section-title {
+  margin-bottom: 1.5rem;
+}
+.page-representative .representative .representative-content > * {
+  font-size: 1.125rem;
+  text-align: justify;
+  line-height: 1.25;
+  color: #2c2c2c;
+}
+.page-representative .representative .representative-content > *:last-of-type {
+  margin-bottom: 0;
+}
+.page-representative .representative .representative-img {
+  position: relative;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  margin-bottom: 1rem;
+}
+.page-representative .representative .representative-img::before {
+  content: "";
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  right: 0;
+  bottom: 0;
+  border-radius: 40px;
+  background-image: -ms-linear-gradient(
+    14deg,
+    rgb(5, 169, 156) 0%,
+    rgb(0, 211, 222) 48%,
+    rgb(0, 199, 232) 100%
+  );
+  background-image: -moz-linear-gradient(
+    14deg,
+    rgb(5, 169, 156) 0%,
+    rgb(0, 211, 222) 48%,
+    rgb(0, 199, 232) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    14deg,
+    rgb(5, 169, 156) 0%,
+    rgb(0, 211, 222) 48%,
+    rgb(0, 199, 232) 100%
+  );
+  z-index: -2;
+}
+.page-representative .representative .representative-img::after {
+  content: "";
+  position: absolute;
+  top: 0.875rem;
+  left: 0.875rem;
+  right: 0.125rem;
+  bottom: 0.125rem;
+  border-radius: 38px;
+  background-color: #ffffff;
+  z-index: -1;
+}
+.page-representative .representative .representative-img img {
+  border-radius: 38px;
+}
+@media (min-width: 576px) {
+  .page-representative .representative .section-title {
+    max-width: 510px;
+  }
+}
+@media (min-width: 992px) {
+  .page-representative .representative .representative-img {
+    padding-right: 1.25rem;
+    padding-bottom: 1.25rem;
+    margin-bottom: 0;
+  }
+  .page-representative .representative .representative-img::before {
+    top: 1.25rem;
+    left: 1.25rem;
+  }
+  .page-representative .representative .representative-img::after {
+    top: 1.375rem;
+    left: 1.375rem;
+  }
+}
+
+/* Página Área do Representante */
+.page-representative-area .breadcrumb {
+  padding-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.page-representative-area .representative-area {
+  padding-bottom: 8rem;
+}
+.page-representative-area .representative-area .section-title {
+  margin-bottom: 5rem;
+}
+
+.page-representative-area .wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-representative-area .wrap .content {
+  max-width: 450px;
+  padding: 3rem 0;
+}
+.page-representative-area .wrap .content:first-child {
+  border-bottom: 1px solid #9c9c9c;
+}
+.page-representative-area .wrap .content h2 {
+  font-family: "Barlow Bold";
+  font-size: 1.625rem;
+  color: #04c4ca;
+  text-align: center;
+}
+.page-representative-area .wrap .content p {
+  line-height: 1.25;
+  color: #2c2c2c;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.page-representative-area .wrap .content .btn-link {
+  color: #2c2c2c;
+}
+.page-representative-area .wrap .content .btn-light-blue {
+  text-transform: uppercase;
+  font-family: "Barlow Bold";
+  font-size: 1rem;
+  height: 52px;
+  max-width: 265px;
+  margin: 0 auto;
+  border-radius: 1.75rem;
+}
+@media (min-width: 992px) {
+  .page-representative-area .wrap {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .page-representative-area .wrap .content {
+    padding: 3rem 1.5rem;
+  }
+  .page-representative-area .wrap .content:first-child {
+    border-bottom: none;
+    border-right: 1px solid #9c9c9c;
+  }
+}
+@media (min-width: 1200px) {
+  .page-representative-area .wrap .content {
+    max-width: 595px;
+    padding: 3rem 4.5rem;
+  }
+}
+.representantes_comissao {
+  background-color: #1bb7cc;
+  background-image: linear-gradient(90deg, #1bb7cc 0%, #05978b 100%);
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-family: "Barlow Bold";
+  font-size: 2.125rem;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 0 2.5rem;
+  text-align: center;
+}
+.eventos {
+  padding: 150px 0;
+}
+.eventos .section-title {
+  text-align: left;
+  font-size: 2rem;
+  margin: 80px 0 20px 0;
+}
+.eventos .swiper-button-next,
+.eventos .swiper-button-prev {
+  top: 110%;
+}
+.eventos .swiper-button-prev,
+.eventos .swiper-rtl .swiper-button-next {
+  left: 50%;
+  width: 36px;
+}
+.eventos .swiper-button-next,
+.eventos .swiper-rtl .swiper-button-prev {
+  right: 40%;
+  width: 36px;
+}
+.eventos .swiper-wrapper {
+  gap: 20px;
+}
+.eventos .card {
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 20px 15px;
+  min-height: 350px;
+}
+.eventos .card .icone {
+  width: 55px;
+  margin: 0 auto;
+}
+.eventos .card h6.card-title {
+  font-family: "Barlow Bold";
+  font-size: 1rem;
+  color: #00223a;
+  text-align: center;
+  margin: 10px 0;
+}
+.eventos .card .card-description {
+  font-size: 1rem;
+  color: #2c2c2c;
+  text-align: justify;
+}
+.btn_seja_representante,
+.btn_seja_representante:hover {
+  display: inline-block;
+  padding: 10px 40px;
+  border-radius: 40px;
+  background: #04c4ca;
+  font-family: "Barlow Bold";
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+.eventos .swiper-button-next:after,
+.eventos .swiper-rtl .swiper-button-prev:after {
+  content: " " !important;
+  background-image: url("../images/icones/icone-eventos-arrow-right.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 36px;
+  height: 17px;
+}
+.eventos .swiper-button-prev:after,
+.eventos .swiper-rtl .swiper-button-next:after {
+  content: " " !important;
+  background-image: url("../images/icones/icone-eventos-arrow-left.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 36px;
+  height: 17px;
+}
+
+.dados_necessarios {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.dados_necessarios .imagem_destaque_parc {
+  width: 100%;
+  border-radius: 15px;
+  margin: 50px 0;
+}
+.dados_necessarios .section-title {
+  margin-top: 50px;
+  text-align: justify;
+  font-size: 1.8rem;
+}
+.dados_necessarios .conteudo_parc {
+  text-align: justify;
+}
+
+.itens {
+  padding: 3rem 0 5rem 0;
+}
+.itens .section-title small {
+  margin-bottom: 0;
+}
+.itens .boxPorqueSer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.itens .boxPorqueSer .itensPorqueSer {
+  width: 45%;
+  text-align: left;
+  margin-bottom: 3rem;
+  font-family: "Barlow Medium";
+  font-size: 1.2rem;
+  color: #00223a;
+}
+.itens .boxPorqueSer .itensPorqueSer .icone {
+  width: 56px;
+}
+.itens .imagem_destaque_pq_ser {
+  margin-top: 2rem;
+  border-radius: 15px;
+}
+
+.depoimentos {
+  background-color: #00223a;
+  padding: 5rem 0 3rem 0;
+  margin-bottom: 10px;
+}
+.depoimentos .section-title {
+  color: #fff;
+  margin-bottom: 4rem !important;
+}
+.depoimentos .section-title small {
+  margin-bottom: 0;
+}
+.depoimentos .swiper-button-prev,
+.depoimentos .swiper-button-next {
+  display: none;
+}
+.depoimentos .swiper-depoimentos-representantes .card {
+  padding: 20px 30px 30px 30px;
+  border-radius: 15px;
+  height: 100%;
+}
+.depoimentos .swiper-depoimentos-representantes .card .foto_depoimento {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 0 auto;
+}
+.depoimentos .swiper-depoimentos-representantes .card .card-title {
+  font-family: "Barlow Bold";
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #00223a;
+  text-align: center;
+  margin-bottom: 0;
+}
+.depoimentos .swiper-depoimentos-representantes .card .card-subtitle {
+  font-family: "Barlow SemiBold";
+  font-size: 1rem;
+  color: #00223a;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.depoimentos .swiper-depoimentos-representantes .card .card-description {
+  font-family: "Barlow";
+  font-size: 1rem;
+  color: #2c2c2c;
+  text-align: justify;
+}
+.depoimentos .swiper-wrapper.center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.depoimentos .btn_seja_representante {
+  margin-top: 1.5rem;
+}
+
+.perguntas {
+  background-image: url("../images/bg_representantes_perguntas.html");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem 0 3rem 0;
+  margin-bottom: 10px;
+}
+.perguntas .section-title {
+  font-size: 2rem !important;
+}
+.perguntas .section-title small {
+  margin-bottom: 0;
+}
+.perguntas .accordion-item {
+  border: solid 1px #dadada;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.perguntas .accordion-item .accordion-button {
+  font-family: "Barlow Bold";
+  font-size: 1.2rem;
+  color: #00223a;
+  padding: 20px 40px;
+}
+.perguntas .accordion-item .accordion-button:not(.collapsed) {
+  background-color: #f5f5f5;
+}
+
+/* 
+@media (max-width: 832px) {
+  #modalForm .modal-dialog {
+    max-width: 80% !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+} */

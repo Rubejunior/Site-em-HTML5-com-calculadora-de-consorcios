@@ -1,0 +1,24 @@
+/* Breadcrumb */
+.page-privacy .breadcrumb {
+    padding-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+/* Privacidade */
+.page-privacy .privacy {
+    padding-bottom: 8rem;
+}
+.page-privacy .privacy .section-title {
+    margin-bottom: 2rem;
+}
+.page-privacy .privacy .privacy-content div > *:not(h1,h2,h3,h4,h5,h6) {
+    font-size: 1.125rem;
+    line-height: 1.25;
+    color: #2c2c2c;
+    margin-bottom: 0;
+}
+.page-privacy .privacy .privacy-content h5 {
+    font-family: "Barlow Bold";
+    font-size: 1.25rem;
+    color: #00223a;
+}

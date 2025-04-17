@@ -1,0 +1,17 @@
+.assembly {
+    padding-bottom: 7rem;
+}
+.assembly .assembly-content > *,
+.assembly .assembly-content div > * {
+    font-size: 1.125rem;
+    text-align: justify;
+    line-height: 1.25;
+    color: #2c2c2c;
+}
+.assembly .assembly-content h5,
+.assembly .assembly-content h6 {
+    font-family: "Barlow Bold";
+    font-size: 1.25rem;
+    text-align: left;
+    color: #00223a;
+}

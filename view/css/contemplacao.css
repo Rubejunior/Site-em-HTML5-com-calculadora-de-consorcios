@@ -1,0 +1,89 @@
+/* Processo de Contemplação */
+.contemplantion {
+    padding-bottom: 6.5rem;
+}
+.contemplantion .section-title {
+    margin-bottom: 2.5rem;
+}
+.contemplantion .description > *,
+.contemplantion .description > * > * {
+    font-size: 1.125rem;
+    text-align: justify;
+    line-height: 1.25;
+    color: #2c2c2c;
+}
+
+/* Accordion Imagem */
+.contemplantion .accordion .accordion-image {
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+}
+.contemplantion .accordion .accordion-image:not(:first-child) {
+    margin-top: 4.5rem;
+}
+
+/* Accordion Item */
+.contemplantion .accordion-item {
+    max-width: 900px;
+    margin: 0 auto 0.75rem;
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(102, 102, 102, 0.7);
+}
+.contemplantion .accordion-item .accordion-button {
+    font-family: "Barlow Bold";
+    font-size: 1.25rem;
+    color: #00223A;
+    padding: 1.313rem 2rem;
+}
+.contemplantion .accordion-item .accordion-button:focus {
+    box-shadow: none;
+}
+.contemplantion .accordion-item .accordion-button::after {
+    content: "\f107";
+    font-family: "Font Awesome 6 free";
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #00223a;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    background-image: none;
+}
+.contemplantion .accordion-item .accordion-button:not(.collapsed) {
+    background-color: #FFFFFF;
+    box-shadow: none;
+}
+.contemplantion .accordion-item .accordion-collapse {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-top: 1px solid #949494;
+}
+.contemplantion .accordion-item .accordion-collapse .accordion-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem 0 1.75rem;
+}
+.contemplantion .accordion-item .accordion-collapse .accordion-body .btn-link {
+    font-family: "Barlow Medium";
+    font-size: 1.125rem;
+    line-height: 1.25;
+    color: #00223a;
+    width: auto;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+}
+.contemplantion .accordion-item .accordion-collapse .accordion-body .btn-link:not(:last-child) {
+    margin-bottom: 0.875rem;
+}
+.contemplantion .accordion-item .accordion-collapse .accordion-body .btn-link:hover,
+.contemplantion .accordion-item .accordion-collapse .accordion-body .btn-link:focus {
+    color: #04c4ca;
+}

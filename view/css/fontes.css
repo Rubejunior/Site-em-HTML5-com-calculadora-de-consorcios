@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Barlow Black';
+    src: url('fonts/Barlow-Black.eot');
+    src: url('fonts/Barlow-Blackd41d.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Barlow-Black.html') format('woff2'),
+        url('fonts/Barlow-Black.woff') format('woff'),
+        url('fonts/Barlow-Black.ttf') format('truetype'),
+        url('fonts/Barlow-Black.svg#Barlow-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow ExtraBold';
+    src: url('fonts/Barlow-ExtraBold.eot');
+    src: url('fonts/Barlow-ExtraBoldd41d.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Barlow-ExtraBold.html') format('woff2'),
+    url('fonts/Barlow-ExtraBold.woff') format('woff'),
+    url('fonts/Barlow-ExtraBold.ttf') format('truetype'),
+    url('fonts/Barlow-ExtraBold.svg#Barlow-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Bold';
+    src: url('fonts/Barlow-Bold.eot');
+    src: url('fonts/Barlow-Boldd41d.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Barlow-Bold.html') format('woff2'),
+        url('fonts/Barlow-Bold.woff') format('woff'),
+        url('fonts/Barlow-Bold.ttf') format('truetype'),
+        url('fonts/Barlow-Bold.svg#Barlow-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow SemiBold';
+    src: url('fonts/Barlow-SemiBold.eot');
+    src: url('fonts/Barlow-SemiBoldd41d.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Barlow-SemiBold.html') format('woff2'),
+    url('fonts/Barlow-SemiBold.woff') format('woff'),
+    url('fonts/Barlow-SemiBold.ttf') format('truetype'),
+    url('fonts/Barlow-SemiBold.svg#Barlow-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Medium';
+    src: url('fonts/Barlow-Medium.eot');
+    src: url('fonts/Barlow-Mediumd41d.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Barlow-Medium.html') format('woff2'),
+        url('fonts/Barlow-Medium.woff') format('woff'),
+        url('fonts/Barlow-Medium.ttf') format('truetype'),
+        url('fonts/Barlow-Medium.svg#Barlow-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('fonts/Barlow-Regular.eot');
+    src: url('fonts/Barlow-Regulard41d.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Barlow-Regular.html') format('woff2'),
+        url('fonts/Barlow-Regular.woff') format('woff'),
+        url('fonts/Barlow-Regular.ttf') format('truetype'),
+        url('fonts/Barlow-Regular.svg#Barlow-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Light';
+    src: url('fonts/Barlow-Light.eot');
+    src: url('fonts/Barlow-Lightd41d.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Barlow-Light.html') format('woff2'),
+    url('fonts/Barlow-Light.woff') format('woff'),
+    url('fonts/Barlow-Light.ttf') format('truetype'),
+    url('fonts/Barlow-Light.svg#Barlow-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
